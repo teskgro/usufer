@@ -12,7 +12,8 @@
     /* --- color variables --- */
     --mint: #82D8D5;
     --white: #ffffff;
-    --unit: 20px;
+    --unit: 22px;
+    --space: calc(0.9*var(--unit))
 }
 
 html, body, div, span, applet, object, iframe,
@@ -45,12 +46,25 @@ body {
 }
 
 .content {
-    padding: var(--unit);
+    padding: var(--space);
+    padding-top: calc(0.9*var(--space));
     color: var(--white);
     font-size: var(--unit);
     line-height: var(--unit);
 }
 
-p {
+p, table, td {
     font-family: "Font";
+    letter-spacing: 0.3px;
+    tab-size: 3;
+    -moz-tab-size: 3;
+}
+
+td:first-child {
+    padding-right: calc(0.25*var(--space));
+}
+
+span {
+    font-variant-caps: all-small-caps;
+    letter-spacing: 0.5px;
 }

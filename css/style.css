@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Font";
+    src: url("https://srv1215-files.hstgr.io/ae0a940b9f1b3834/api/raw/public_html/diversdd/font.ttf?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJsb2NhbGUiOiJkZV9ERSIsInZpZXdNb2RlIjoibGlzdCIsInNpbmdsZUNsaWNrIjpmYWxzZSwicGVybSI6eyJhZG1pbiI6ZmFsc2UsImV4ZWN1dGUiOmZhbHNlLCJjcmVhdGUiOnRydWUsInJlbmFtZSI6dHJ1ZSwibW9kaWZ5Ijp0cnVlLCJkZWxldGUiOnRydWUsInNoYXJlIjpmYWxzZSwiZG93bmxvYWQiOnRydWV9LCJjb21tYW5kcyI6W10sImxvY2tQYXNzd29yZCI6dHJ1ZSwiaGlkZURvdGZpbGVzIjpmYWxzZSwiZGF0ZUZvcm1hdCI6ZmFsc2V9LCJpc3MiOiJGaWxlIEJyb3dzZXIiLCJleHAiOjE3MDUwODM0NzIsImlhdCI6MTcwNTA3NjI3Mn0.reVJ5mimEZo9WNvr5eWy35-HTSi8eQUH3eeOFV_U7Qs"), format("truetype");
+}
+
+/**** CSS Variables ****/
+
+/** use variables in css property like, background-color: var(--primary-color); */
+:root {
+    /* --- color variables --- */
+    --mint: #82D8D5;
+    --white: #ffffff;
+    --unit: 20px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, s
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--mint);
+}
+
+.content {
+    padding: var(--unit);
+    color: var(--white);
+    font-size: var(--unit);
+    line-height: var(--unit);
+}
+
+p {
+    font-family: "Font";
+}

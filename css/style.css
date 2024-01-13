@@ -55,7 +55,7 @@ body {
 
 p, table, td {
     font-family: "Font";
-    letter-spacing: 0.3px;
+    letter-spacing: 0.15px;
     tab-size: 3;
     -moz-tab-size: 3;
 }

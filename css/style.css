@@ -9,7 +9,7 @@
     /* --- color variables --- */
     --mint: #82D8D5;
     --white: #ffffff;
-    --unit: 22px;
+    --unit: 20px;
     --space: calc(1.1*var(--unit))
 }
 
@@ -98,8 +98,12 @@ a {
 @media only screen and (max-width: 1100px) {
     :root {
         /* --mint: #0033ff; */
-        --unit: 20px;
+        --unit: 19.5px;
         --space: calc(1.1*var(--unit))
+    }
+    .aqua {
+        width: calc(0.706245710363761*22*var(--unit));
+        height: calc(22*var(--unit));
     }
 }
 
@@ -107,8 +111,12 @@ a {
 @media only screen and (max-width: 850px) {
     :root {
         /* --mint: #12a505; */
-        --unit: 16px;
+        --unit: 19px;
         --space: calc(1.1*var(--unit))
+    }
+    .aqua {
+        width: calc(0.706245710363761*24*var(--unit));
+        height: calc(24*var(--unit));
     }
 }
 
@@ -116,15 +124,11 @@ a {
 @media only screen and (max-width: 600px) {
     :root {
         /* --mint: #ff00a6; */
-        --unit: 12px;
+        --unit: 18px;
         --space: calc(1.1*var(--unit))
     }
-}
-
-@media only screen and (max-width: 400px) {
-    :root {
-        /* --mint: #f2ff00; */
-        --unit: 10px;
-        --space: calc(1.1*var(--unit))
+    .aqua {
+        width: calc(0.706245710363761*26*var(--unit));
+        height: calc(26*var(--unit));
     }
-}
+} 

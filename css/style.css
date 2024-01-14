@@ -5,9 +5,6 @@
     src: url("https://teskgro.github.io/usufer/font.ttf"), format("truetype");
 }
 
-/**** CSS Variables ****/
-
-/** use variables in css property like, background-color: var(--primary-color); */
 :root {
     /* --- color variables --- */
     --mint: #82D8D5;
@@ -95,4 +92,39 @@ span {
 a {
     color: var(--white);
     text-decoration: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1100px) {
+    :root {
+        /* --mint: #0033ff; */
+        --unit: 20px;
+        --space: calc(1.1*var(--unit))
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 850px) {
+    :root {
+        /* --mint: #12a505; */
+        --unit: 18px;
+        --space: calc(1.1*var(--unit))
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    :root {
+        /* --mint: #ff00a6; */
+        --unit: 16px;
+        --space: calc(1.1*var(--unit))
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    :root {
+        /* --mint: #f2ff00; */
+        --unit: 14px;
+        --space: calc(1.1*var(--unit))
+    }
 }

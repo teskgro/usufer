@@ -98,7 +98,7 @@ a {
 @media only screen and (max-width: 1100px) {
     :root {
         /* --mint: #0033ff; */
-        --unit: 19px;
+        --unit: 20px;
         --space: calc(1.1*var(--unit))
     }
 }
@@ -116,7 +116,7 @@ a {
 @media only screen and (max-width: 600px) {
     :root {
         /* --mint: #ff00a6; */
-        --unit: 13px;
+        --unit: 12px;
         --space: calc(1.1*var(--unit))
     }
 }

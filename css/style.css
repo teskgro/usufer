@@ -13,7 +13,7 @@
     --mint: #82D8D5;
     --white: #ffffff;
     --unit: 22px;
-    --space: calc(0.9*var(--unit))
+    --space: calc(1.1*var(--unit))
 }
 
 html, body, div, span, applet, object, iframe,
@@ -53,9 +53,32 @@ body {
     line-height: var(--unit);
 }
 
+.aqua {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: calc(0.706245710363761*20*var(--unit));
+    height: calc(20*var(--unit));
+    transform: translate(-50%, -50%);
+    background-image: url("https://teskgro.github.io/usufer/img/aqua-inv.png");
+    background-size: contain;
+    mix-blend-mode: screen;
+}
+
+.contact {
+    padding: var(--space);
+    padding-top: calc(0.9*var(--space));
+    color: var(--white);
+    font-size: var(--unit);
+    line-height: var(--unit);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
 p, table, td {
     font-family: "Font";
-    letter-spacing: 0.15px;
+    letter-spacing: 0.3px;
     tab-size: 3;
     -moz-tab-size: 3;
 }
@@ -67,4 +90,9 @@ td:first-child {
 span {
     font-variant-caps: all-small-caps;
     letter-spacing: 0.5px;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
 }

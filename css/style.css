@@ -98,7 +98,7 @@ a {
 @media only screen and (max-width: 1100px) {
     :root {
         /* --mint: #0033ff; */
-        --unit: 20px;
+        --unit: 19px;
         --space: calc(1.1*var(--unit))
     }
 }
@@ -107,7 +107,7 @@ a {
 @media only screen and (max-width: 850px) {
     :root {
         /* --mint: #12a505; */
-        --unit: 18px;
+        --unit: 16px;
         --space: calc(1.1*var(--unit))
     }
 }
@@ -116,7 +116,7 @@ a {
 @media only screen and (max-width: 600px) {
     :root {
         /* --mint: #ff00a6; */
-        --unit: 16px;
+        --unit: 13px;
         --space: calc(1.1*var(--unit))
     }
 }
@@ -124,7 +124,7 @@ a {
 @media only screen and (max-width: 400px) {
     :root {
         /* --mint: #f2ff00; */
-        --unit: 14px;
+        --unit: 10px;
         --space: calc(1.1*var(--unit))
     }
 }

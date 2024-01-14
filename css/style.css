@@ -102,8 +102,8 @@ a {
         --space: calc(1.1*var(--unit))
     }
     .aqua {
-        width: calc(0.706245710363761*22*var(--unit));
-        height: calc(22*var(--unit));
+        width: calc(0.706245710363761*19.5*var(--unit));
+        height: calc(19.5*var(--unit));
     }
 }
 
@@ -115,8 +115,8 @@ a {
         --space: calc(1.1*var(--unit))
     }
     .aqua {
-        width: calc(0.706245710363761*24*var(--unit));
-        height: calc(24*var(--unit));
+        width: calc(0.706245710363761*19*var(--unit));
+        height: calc(19*var(--unit));
     }
 }
 
@@ -128,7 +128,7 @@ a {
         --space: calc(1.1*var(--unit))
     }
     .aqua {
-        width: calc(0.706245710363761*26*var(--unit));
-        height: calc(26*var(--unit));
+        width: calc(0.706245710363761*18*var(--unit));
+        height: calc(18*var(--unit));
     }
 } 
